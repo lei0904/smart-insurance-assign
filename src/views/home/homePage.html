@@ -1,0 +1,73 @@
+
+<title>主页</title>
+
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">主页</a>
+        <a><cite>主页</cite></a>
+    </div>
+</div>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space12">
+        <div class=" layui-col-md6">
+            <!-- 填充内容 -->
+            <div class="layui-card">
+                <div class="layui-card-header">电销个人数据分析</div>
+                <div class="layui-card-body">
+                    <div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade" lay-filter="LAY-index-normcol">
+                        <div carousel-item id="LAY-index-normcol">
+                            <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" layui-col-md6">
+            <!-- 填充内容 -->
+            <div class="layui-card">
+                <div class="layui-card-header">电销个人晨单量分析</div>
+                <div class="layui-card-body">
+                    <div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade" lay-filter="LAY-index-pie">
+                        <div carousel-item id="LAY-index-pie">
+                            <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layui-row layui-col-space12">
+        <div class=" layui-col-md6">
+            <!-- 填充内容 -->
+            <div class="layui-card">
+                <div class="layui-card-header">电销团队数据分析</div>
+                <div class="layui-card-body">
+                    <div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade" lay-filter="LAY-index-pie">
+                        <div carousel-item id="LAY-index-pie1">
+                            <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" layui-col-md6">
+            <!-- 填充内容 -->
+            <div class="layui-card">
+                <div class="layui-card-header">电销团队数据分析</div>
+                <div class="layui-card-body">
+                    <div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade" lay-filter="LAY-index-pie">
+                        <div carousel-item id="LAY-index-pie2">
+                            <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.use('sample', layui.factory('sample'));
+    layui.use('senior', layui.factory('senior'));
+</script>
