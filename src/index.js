@@ -20,7 +20,6 @@ layui.extend({
   
   //根据路由渲染页面
   ,renderPage = function(){
-    debugger
     var router = layui.router()
     ,path = router.path
     ,pathURL = admin.correctRouter(router.path.join('/'))
